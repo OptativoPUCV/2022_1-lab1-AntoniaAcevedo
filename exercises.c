@@ -41,12 +41,14 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
 
    int i;
    
-   for(i = n; i > m; i--) 
+   for (i = n; i < m; i --)
    {
       *suma += a[i];
-   }
-}
 
+   }
+
+
+} 
 /*
 Ejercicio 3.
 Considerando la estructura Persona, programe la función
