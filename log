@@ -2,3 +2,9 @@ vi., 11 de mar. de 2022 18:20:23:
  tests:  0|7
 total_score: 0/70
 327991c
+vi., 11 de mar. de 2022 19:14:36: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  1|6
+total_score: 10/70
+ce86568
