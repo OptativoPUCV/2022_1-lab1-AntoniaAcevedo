@@ -26,3 +26,9 @@ vi., 11 de mar. de 2022 20:18:30:
  tests:  1|6
 total_score: 10/70
 ccae973
+vi., 11 de mar. de 2022 20:36:06: 
+ exercises.c | 11 ++---------
+ 1 file changed, 2 insertions(+), 9 deletions(-)
+ tests:  2|5
+total_score: 20/70
+8fc1364
