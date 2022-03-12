@@ -82,12 +82,13 @@ typedef struct {
 Vector * crearVector(int n) {
    Vector* totaldat;
    totaldat = (Vector*) calloc (n, sizeof(Vector));
+   totaldat -> datos = (int) calloc (n, sizeof(int));
    return totaldat;
 
 }
 
 /*
-Ejercicio 5a.
+Ejercicio 5.
 Programe la función void asignarValor(Vector * v, int i, int valor), 
 la cual asigna el valor a la posición i del vector v.
 */
