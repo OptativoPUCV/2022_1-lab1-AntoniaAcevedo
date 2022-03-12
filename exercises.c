@@ -83,6 +83,7 @@ Vector * crearVector(int n) {
    Vector* totaldat;
    totaldat = (Vector*) calloc (n, sizeof(Vector));
    totaldat -> datos = (int*) calloc (n, sizeof(int));
+   totaldat-> capacidad = n;
    return totaldat;
 
 }
