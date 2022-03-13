@@ -91,3 +91,47 @@ do., 13 de mar. de 2022 15:10:28:
  tests:  8|0
 total_score: 70/70
 3fd75f8
+do., 13 de mar. de 2022 15:29:50: 
+ exercises.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV2':
+exercises.c:132:17: error: passing argument 1 of 'asignarValor' from incompatible pointer type [-Werror=incompatible-pointer-types]
+    asignarValor(vector1,0,a1);
+                 ^~~~~~~
+exercises.c:96:6: note: expected 'Vector * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void asignarValor(Vector * v, int i, int valor) {
+      ^~~~~~~~~~~~
+exercises.c:133:17: error: passing argument 1 of 'asignarValor' from incompatible pointer type [-Werror=incompatible-pointer-types]
+    asignarValor(vector1,1,b1);
+                 ^~~~~~~
+exercises.c:96:6: note: expected 'Vector * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void asignarValor(Vector * v, int i, int valor) {
+      ^~~~~~~~~~~~
+exercises.c:134:17: error: passing argument 1 of 'asignarValor' from incompatible pointer type [-Werror=incompatible-pointer-types]
+    asignarValor(vector2,0,a2);
+                 ^~~~~~~
+exercises.c:96:6: note: expected 'Vector * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void asignarValor(Vector * v, int i, int valor) {
+      ^~~~~~~~~~~~
+exercises.c:135:17: error: passing argument 1 of 'asignarValor' from incompatible pointer type [-Werror=incompatible-pointer-types]
+    asignarValor(vector2,1,b2);
+                 ^~~~~~~
+exercises.c:96:6: note: expected 'Vector * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void asignarValor(Vector * v, int i, int valor) {
+      ^~~~~~~~~~~~
+exercises.c:136:10: error: passing argument 1 of 'sumaV' from incompatible pointer type [-Werror=incompatible-pointer-types]
+    sumaV(vector1, vector2, c);
+          ^~~~~~~
+exercises.c:115:6: note: expected 'Vector * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void sumaV(Vector * a, Vector * b, Vector * c) {
+      ^~~~~
+exercises.c:136:19: error: passing argument 2 of 'sumaV' from incompatible pointer type [-Werror=incompatible-pointer-types]
+    sumaV(vector1, vector2, c);
+                   ^~~~~~~
+exercises.c:115:6: note: expected 'Vector * {aka struct <anonymous> *}' but argument is of type 'int *'
+ void sumaV(Vector * a, Vector * b, Vector * c) {
+      ^~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+a0e24d0
